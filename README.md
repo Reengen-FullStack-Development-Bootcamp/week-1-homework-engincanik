@@ -6,4 +6,4 @@ A simple shoe store mockup made with Vue 2.
 
 ### Screen Recording
 
-<img src="SS/shoe_store.gif" width="600" alt="Website Gif">
+<img src="SS/shoe_store.gif" alt="Website Gif">
