@@ -17,8 +17,8 @@
       </b-row>
       <b-row style="padding-bottom: 16px; padding-top: 8px;">
         <b-col cols="7">
-        <span v-for="i in item.rating" :key="'checked' + i" class="fa fa-star checked"
-              :class="'checked-'+  item.color"/>
+          <span v-for="i in item.rating" :key="'checked' + i" class="fa fa-star checked"
+                :class="'checked-'+  item.color"/>
           <span v-for="j in 5 - item.rating" :key="'unchecked' + j" class="fa fa-star"/>
         </b-col>
       </b-row>
@@ -34,10 +34,6 @@
       </b-row>
       <b-row>
         <b-col cols="7">
-          <!--          <b-button @click="selectedSize = i" style="height: 32px;" v-for="i in shoeSizes" :key="i"-->
-          <!--                    class="btn-shoe-size">-->
-          <!--            {{ i }}-->
-          <!--          </b-button>-->
           <b-form-group v-slot="{ ariaDescribedby }">
             <b-form-radio-group
                 v-model="selectedSize"
