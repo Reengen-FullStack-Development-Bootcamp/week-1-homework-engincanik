@@ -1,24 +1,9 @@
-# shoe-store
+# Reengen Fullstack Bootcamp Project 1
+## Shoe Store
+![](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
 
-## Project setup
-```
-npm install
-```
+A simple shoe store mockup made with Vue 2.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Screen Recording
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<img src="SS/shoe_store.gif" width="600" alt="Website Gif">
